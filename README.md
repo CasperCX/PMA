@@ -1,4 +1,4 @@
 Project Management App with React and Koa (TypeScript)
 
-start app: npm start
-start server: yarn watch watch-server
+start app: <b>npm start</b></br>
+start server: <b>yarn watch watch-server</b>

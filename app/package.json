@@ -16,12 +16,14 @@
     "analyze": "webpack --config devtools/webpack.config --env.mode=production --env.eval=true"
   },
   "dependencies": {
+    "@types/ramda": "^0.25.48",
     "@types/react": "^16.7.21",
     "@types/react-dom": "^16.0.11",
     "easy-peasy": "^1.8.0",
     "ramda": "^0.26.1",
     "react": "16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0"
   },
   "devDependencies": {
     "@types/enzyme": "^3.1.15",

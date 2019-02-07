@@ -6,8 +6,12 @@ export default class Router {
     constructor() {
         this.router = new KoaRouter()
 
-        this.router.get('/*', async (ctx) => {
+        this.router.get('/', async (ctx) => {
             ctx.body = "Hello World"
+        })
+
+        this.router.get('/:name', async (ctx) => {
+            ctx.body = `welcome ${ctx.params.name}`
         })
     }
 }

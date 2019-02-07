@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {connect} from 'react-redux';
 import {State} from 'easy-peasy';
-import {Model} from '../Model';
+import {todosModel} from '../models/todosModel';
 
 
 const Component: React.FC<{name: string, todos: Array<any>}> = ({name, todos}) => {
@@ -21,7 +21,7 @@ const Component: React.FC<{name: string, todos: Array<any>}> = ({name, todos}) =
 };
 
 
-export default connect((state: State<Model>) => ({
+export default connect((state: State<todosModel>) => ({
   todos: state.todos.items || []
 }))(Component)
 

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './App.scss';
+import './main.scss';
 
 import {Provider} from 'react-redux';
 
